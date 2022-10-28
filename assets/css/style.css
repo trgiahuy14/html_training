@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+
+}
+
+.text-white{
+    color: #fff !important;
+}
+#header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    height: 46px;
+    z-index: 1;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav,.subnav{
+    list-style: none;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li{
+    position: relative;
+}
+
+#nav > li > a{
+    color: #fff;
+}
+
+#nav li a{
+    text-decoration: none;
+    padding: 0 24px;
+    text-transform: uppercase;
+    line-height: 46px;
+    display: block;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+    background-color: #ccc;
+    color: black;
+}
+
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav .subnav{
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    min-width: 180px;
+    background-color: #fff;
+}
+
+#nav .subnav a{
+    color: #000;
+}
+
+#header .search-button{
+    float: right;
+}
+
+#header .search-button:hover{
+    background-color: #f33445;
+    cursor: pointer;
+}
+
+#slider{
+    padding-top: 50%;
+    background: url("/assets/img/slider/2.jpeg") top center / cover no-repeat;
+    margin-top: 46px;
+    position: relative;
+}
+
+#slider .text-content{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#slider .text-heading{
+    color: #fff;
+}
+
+#slider .text-description{
+    color: #fff;
+    margin-top: 25px;
+}
+
+
+#content{
+
+}
+
+#content .section-content{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+#content .section-heading{
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 500;
+  
+}
+
+#content .section-sub-heading{
+    text-align: center;
+    opacity: 0.6;
+    font-style: italic;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+#content .section-description{
+    text-align: justify;
+    line-height: 1.4;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+#content .member-list{
+    margin-top: 48px;
+    overflow: hidden;;
+}
+
+#content .member-item{
+    float: left;
+    width: calc(100%/3);
+    text-align: center;
+}
+
+#content .member-name{
+    font-size: 15px;
+}
+
+#content .member-img{
+    width: 154px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.tour-section{
+    background-color: #000;
+}
+
+.ticket-list{
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.ticket-list li{
+    list-style: none;
+}
+
+
+#footer{
+
+}
